@@ -1,0 +1,2 @@
+Max VM Stress = 213.81 MPa
+Max Deformation = 189.14 mm
