@@ -1,4 +1,4 @@
-﻿dp0/Geom/DM/Geom.agdb
+dp0/Geom/DM/Geom.agdb
 dp0/Geom-1/DM/Geom-1.agdb
 dp0/global/MECH/SYS.engd
 dp0/global/MECH/SYS.mechdb
@@ -14,7 +14,9 @@ session_files/journal4.wbjn
 session_files/journal5.wbjn
 session_files/journal6.wbjn
 session_files/journal7.wbjn
+session_files/journal7_crashed.wbjn
 dp0/
+dpall/
 session_files/
 dp0/Geom/
 dp0/Geom-1/
@@ -22,8 +24,6 @@ dp0/global/
 dp0/SYS/
 dp0/Geom/DM/
 dp0/Geom-1/DM/
-<<<<<<< HEAD
-=======
 dp0/global/MECH/
 dp0/global/MECH/SYS/
 dp0/SYS/ENGD/
@@ -31,4 +31,3 @@ dp0/SYS/MECH/
 dpall/global/
 dpall/global/ACT/
 dpall/global/ACT/extensions/
->>>>>>> 3b93b18c344fb99becb8c469d7edfdd280b26bd2
