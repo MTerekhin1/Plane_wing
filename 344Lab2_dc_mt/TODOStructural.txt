@@ -1,0 +1,11 @@
+
+1. Mesh convergence for mesh size and mesh type (hex , structured, surface etc.)
+
+2. Test applying boundary condition
+
+3. Get Lift and Drag values from CFD and solve
+
+4. Check that strain remains below 1% throughout
+
+5. Re-solve for different angles of attack alpha
+
