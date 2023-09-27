@@ -1,0 +1,139 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: CFD_Wing
+# Creation date: 09/20/2023 14:12:33
+# 
+# 09/20/2023 14:12:33
+# The parameters defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P9 - XYPlane.V9 [m],P8 - XYPlane.V8 [m],P7 - XYPlane.H7 [m],P6 - XYPlane.H6 [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P9,P8,P7,P6
+DP 0,0.0030614542,0.086362744,2.25,2.25,3.878,2.25
+DP 1,0.0030662268,0.088235195,2,2,3.628,2
+DP 2,0.0033598194,0.10068664,1,1,2.628,1
+# 
+# A non parametric change occurred and invalidated design point results.
+# 09/20/2023 14:27:36
+# 
+DP 0,0.029554009,0.7181074,0.36,0.36,1.8446,0.2166
+DP 1,0.011324624,0.34481458,1,1,2.628,1
+DP 2,0.010276176,0.30429148,2,2,3.628,2
+DP 3,0.010197199,0.30180786,2.1,2.1,3.728,2.1
+DP 4,0.0098964686,0.2956998,4,4,5.628,4
+DP 5,0.0097078343,0.29510637,8,8,9.628,8
+# 
+# A non parametric change occurred and invalidated design point results.
+# 09/20/2023 15:01:49
+# 
+# 
+# 09/20/2023 15:24:51
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P6 - Mesh Element Size [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P6
+DP 0,0.010202088,0.30163612,0.06
+DP 1,0.010368878,0.29646146,0.05
+DP 2,0.010249035,0.29697207,0.04
+DP 3,0.010179619,0.29893267,0.03
+# 
+# A non parametric change occurred and invalidated design point results.
+# 09/20/2023 16:05:42
+# 
+# 
+# 09/20/2023 16:07:56
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P6 - Mesh Element Size [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P6
+DP 0,0.010202088,0.30163612,0.06
+DP 1,0.010368878,0.29646146,0.05
+DP 2,0.010249035,0.29697207,0.04
+DP 3,0.010179619,0.29893267,0.03
+DP 4,0.0094928543,0.30102427,0.01
+# 
+# A non parametric change occurred and invalidated design point results.
+# 09/26/2023 14:08:10
+# 
+# 
+# 09/26/2023 14:46:23
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P6 - Mesh Element Size [m],P10 - XYPlane.H6 [m],P8 - Inflation Maximum Layers,P9 - Mesh Nodes,P11 - XYPlane.H7 [m],P12 - XYPlane.V8 [m],P13 - XYPlane.V9 [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P6,P10,P8,P9,P11,P12,P13
+DP 0,0.010371132,0.2913675,0.06,2.6,10,31738,4.228,2.6,2.6
+DP 0,0.009914346,0.29556161,0.06,3.6,10,49870,5.88,3,3
+DP 0,0.013031719,0.31853034,0.06,3.6,2,48518,5.88,3,3
+DP 0,0.0096778456,0.29270142,0.06,10,10,240723,14,6,6
+DP 1,0.0098332838,0.29429694,0.06,6,10,122053,10,4.5,4.5
+DP 0,0.0098332838,0.29429694,0.06,6,10,122053,10,4.5,4.5
+# 
+# A non parametric change occurred and invalidated design point results.
+# 09/26/2023 15:35:07
+# 
+# 
+# 09/26/2023 15:42:18
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P6 - Mesh Element Size [m],P13 - XYPlane.V9 [m],P8 - Inflation Maximum Layers,P9 - Mesh Nodes,P12 - XYPlane.V8 [m],P10 - XYPlane.H6 [m],P11 - XYPlane.H7 [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P6,P13,P8,P9,P12,P10,P11
+DP 0,0.0098720055,0.29475685,0.06,4,10,135303,4,5,15
+DP 0,0.010055524,0.29642404,0.08,4,10,77328,4,5,15
+# 
+# A non parametric change occurred and invalidated design point results.
+# 09/26/2023 15:58:05
+# 
+DP 0,0.010055463,0.29642779,0.08,4,10,77328,4,5,15
+DP 1,0.0098817479,0.29442946,0.06,4,10,135303,4,5,15
+DP 2,0.0097411219,0.2944862,0.05,4,10,194165,4,5,15
+DP 3,0.0095782832,0.29399234,0.04,4,10,301208,4,5,15
+DP 4,0.0095027136,0.29660528,0.03,4,10,534865,4,5,15
+# 
+# 09/27/2023 12:21:54
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P6 - Mesh Element Size [m],P13 - XYPlane.V9 [m],P8 - Inflation Maximum Layers,P9 - Mesh Nodes,P12 - XYPlane.V8 [m],P10 - XYPlane.H6 [m],P11 - XYPlane.H7 [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P6,P13,P8,P9,P12,P10,P11
+DP 0,0.0098491657,0.2913663,0.06,6,10,241973,6,6,18
+DP 1,0.009702871,0.291772,0.06,7,10,374226,7,8,24
+# 
+# A non parametric change occurred and invalidated design point results.
+# 09/27/2023 12:39:18
+# 
+# 
+# 09/27/2023 12:52:14
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P14 - Mesh Element Size [m],P13 - XYPlane.V9 [m],P15 - Face Sizing Element Size [m],P9 - Mesh Nodes,P12 - XYPlane.V8 [m],P10 - XYPlane.H6 [m],P11 - XYPlane.H7 [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P14,P13,P15,P9,P12,P10,P11
+DP 0,0.016968328,0.24687503,0.5,6,0.06,14231,6,6,18
+DP 1,0.01854497,0.23978103,0.5,6,0.08,10306,6,6,18
+DP 2,0.015544442,0.25375241,0.5,6,0.05,17489,6,6,18
+DP 3,0.014040111,0.26953092,0.5,6,0.04,23574,6,6,18
+DP 4,0.012465092,0.28641794,0.5,6,0.03,35299,6,6,18
+DP 5,0.010974332,0.26555524,0.5,6,0.02,93163,6,6,18
+DP 6,0.0096322363,0.26390879,0.5,6,0.01,226459,6,6,18
+DP 7,0.015544442,0.25375241,0.5,6,0.05,17489,6,6,18
+DP 7,0.0092090123,0.26414622,0.5,6,0.005,845227,6,6,18
+DP 8,0.052811238,-0.051491521,1,6,0.9,1485,6,6,18
+DP 9,0.052862299,-0.052154722,1,6,0.8,1461,6,6,18
+DP 11,0.058808479,0.07716842,1,6,0.6,1521,6,6,18
+DP 12,0.058425785,0.077173695,1,6,0.5,1443,6,6,18
+DP 13,0.058183487,0.18930081,1,6,0.4,1863,6,6,18
+DP 14,0.037599032,0.41303056,1,6,0.3,2279,6,6,18
+DP 15,0.031511908,0.36366941,1,6,0.2,3047,6,6,18
+DP 16,0.019873812,0.24711506,1,6,0.1,6339,6,6,18
+# 
+# 09/27/2023 14:09:04
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P5 - drag-op,P4 - lift-op,P14 - Mesh Element Size [m],P13 - XYPlane.V9 [m],P15 - Face Sizing Element Size [m],P9 - Mesh Nodes,P12 - XYPlane.V8 [m],P10 - XYPlane.H6 [m],P11 - XYPlane.H7 [m]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P5,P4,P14,P13,P15,P9,P12,P10,P11
+DP 0,0.010974332,0.26555524,0.5,6,0.02,93163,6,6,18

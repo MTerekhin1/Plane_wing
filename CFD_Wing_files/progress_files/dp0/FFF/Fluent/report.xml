@@ -89,7 +89,7 @@ Boundary Conditions
       inlet    5    velocity-inlet    
       outlet   6    pressure-outlet   
       wing     8    wall              
-      walls    22   wall              
+      walls    36   wall              
 
    Setup Conditions
 

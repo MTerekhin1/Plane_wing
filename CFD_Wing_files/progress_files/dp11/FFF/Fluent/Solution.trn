@@ -1,0 +1,247 @@
+Transcript Start Time:  13:42:58, 27 Sep 2023 New Zealand Daylight Time 
+Current Directory: "C:\Users\mter153"
+
+Build Time: Nov 29 2021 12:18:53 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v221/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    Vendor                          
+-------------------------------------------------------------------------------
+n3    EN424270  4/6  Windows-x64  16272  Intel(R) Core(TM) i5-10500      
+n2    EN424270  3/6  Windows-x64  1204   Intel(R) Core(TM) i5-10500      
+n1    EN424270  2/6  Windows-x64  16492  Intel(R) Core(TM) i5-10500      
+n0*   EN424270  1/6  Windows-x64  6940   Intel(R) Core(TM) i5-10500      
+host  EN424270       Windows-x64  14892  Intel(R) Core(TM) i5-10500      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cortex Process ID: 15152 
+License Server Path: 1055@ansys.licenses.foe.auckland.ac.nz 
+Multicore processors detected. Processor affinity set!
+Reading setting file in cache: "C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\FFF.set"
+Reading "C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\MECH\FFF.msh"...
+Buffering for file scan...
+
+     402 nodes, binary.
+      78 nodes, binary.
+     846 2D interior faces, zone  1, binary.
+      12 2D velocity-inlet faces, zone  5, binary.
+      12 2D pressure-outlet faces, zone  6, binary.
+       6 2D wall faces, zone  7, binary.
+      48 2D wall faces, zone  8, binary.
+     444 mixed cells, zone  2, binary.
+
+
+
+Following contexts active in the case file have been de-activated because of their current context control conditions:
+"coupled-pseudo-transient"
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts....,
+		faces....,
+		nodes....,
+		cells....,
+        bandwidth reduction using Reverse Cuthill-McKee: 112/10 = 11.2
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	walls
+	wing
+	outlet
+	inlet
+	surface_body
+	interior-surface_bodySetting surface_body (mixture) ... Done.
+ Setting zone id of surface_body to 2.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of inlet to 5.
+ Setting zone id of outlet to 6.
+ Setting zone id of wing to 8.
+ Setting zone id of walls to 36.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+Setting wing (mixture) ... Done.
+Setting walls (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+"Updating Setup cell..."
+"Updating Solution cell..."
+Reading C:\\Users\\mter153\\OneDrive - The University of Auckland\\Documents\\ENGSCI 344\\Assignment\\Plane_wing\\CFD_Wing_files\\dp11\\FFF\\Fluent\\FFF.1.ip...
+Reading IP data ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+  Done.
+  Initializing values...
+  Done.
+Fast-loading "C:\PROGRA~1\ANSYSI~1\v221\fluent\fluent22.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Writing to EN424270:"C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\FFF-Setup-Output.cas.h5" in NODE0 mode and compression level 1 ...
+  Writing mesh ...
+         444 cells,     1 zone  ...
+         924 faces,     5 zones ...
+         480 nodes,     1 zone  ...
+  Done.
+Done.
+Overwriting "C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\.\\lift-rfile.out"  of Report File "lift-rfile"
+Overwriting "C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\.\\drag-rfile.out"  of Report File "drag-rfile"
+
+  iter  continuity  x-velocity  y-velocity           k       omega     time/iter
+     1  1.0000e+00  2.9771e-04  3.3811e-04  5.3463e-01  4.9629e-01  0:00:00  999
+     2  7.8756e-01  1.9544e-04  3.4190e-04  1.9083e-01  4.3716e-01  0:00:00  998
+     3  5.6069e-01  1.5134e-04  2.1406e-04  8.7315e-02  2.8666e-01  0:00:00  997
+     4  3.9970e-01  1.2718e-04  1.4765e-04  6.0636e-02  1.1147e-01  0:00:00  996
+     5  2.7486e-01  9.8114e-05  1.0045e-04  3.7591e-02  5.3986e-02  0:00:00  995
+     6  2.1841e-01  8.0556e-05  7.5132e-05  2.4346e-02  2.8617e-02  0:00:00  994
+     7  1.8710e-01  6.4941e-05  6.0359e-05  1.8749e-02  1.8638e-02  0:00:00  993
+     8  1.6035e-01  5.8058e-05  5.4197e-05  1.2968e-02  1.1828e-02  0:00:00  992
+     9  1.3140e-01  5.1299e-05  4.6087e-05  8.7175e-03  6.9955e-03  0:00:00  991
+    10  1.0507e-01  4.5191e-05  3.9858e-05  7.8988e-03  4.7288e-03  0:00:00  990
+    11  8.1718e-02  3.8875e-05  3.4299e-05  6.7309e-03  3.6392e-03  0:00:00  989
+
+  iter  continuity  x-velocity  y-velocity           k       omega     time/iter
+    12  6.1970e-02  3.3200e-05  2.9717e-05  4.7146e-03  2.4055e-03  0:00:00  988
+    13  5.0833e-02  2.6649e-05  2.4648e-05  4.1241e-03  1.8924e-03  0:00:00  987
+    14  4.2274e-02  2.1567e-05  2.0295e-05  3.5463e-03  1.3917e-03  0:00:00  986
+    15  3.6678e-02  1.7467e-05  1.6735e-05  2.9998e-03  1.2851e-03  0:00:00  985
+    16  3.0258e-02  1.5323e-05  1.4817e-05  2.8618e-03  1.2844e-03  0:00:00  984
+    17  2.5825e-02  1.3355e-05  1.3286e-05  2.4047e-03  1.1246e-03  0:00:00  983
+    18  2.2802e-02  1.1962e-05  1.1896e-05  1.9243e-03  9.8264e-04  0:00:00  982
+    19  2.0286e-02  1.0628e-05  1.0524e-05  1.6366e-03  8.9070e-04  0:00:00  981
+    20  1.7950e-02  9.4459e-06  9.6030e-06  1.7099e-03  9.5432e-04  0:00:00  980
+    21  1.6234e-02  8.1512e-06  8.4810e-06  1.5685e-03  9.5062e-04  0:00:00  979
+    22  1.4688e-02  7.1732e-06  7.5307e-06  1.4409e-03  9.0008e-04  0:00:00  978
+
+  iter  continuity  x-velocity  y-velocity           k       omega     time/iter
+    23  1.3035e-02  6.2921e-06  6.6673e-06  1.3657e-03  8.6295e-04  0:00:00  977
+    24  1.1418e-02  5.5429e-06  5.7960e-06  1.3079e-03  8.2970e-04  0:16:16  976
+    25  9.9397e-03  4.9221e-06  5.1030e-06  1.2404e-03  7.9411e-04  0:13:00  975
+    26  8.6953e-03  4.4486e-06  4.5441e-06  1.1671e-03  7.5505e-04  0:10:23  974
+    27  7.6991e-03  4.0022e-06  4.0593e-06  1.0952e-03  7.1520e-04  0:08:18  973
+    28  6.8432e-03  3.5731e-06  3.6351e-06  1.0268e-03  6.7552e-04  0:06:38  972
+    29  6.1754e-03  3.2070e-06  3.2891e-06  9.6130e-04  6.3610e-04  0:05:18  971
+    30  5.6293e-03  2.8942e-06  2.9754e-06  8.9692e-04  5.9652e-04  0:04:14  970
+    31  5.1474e-03  2.6178e-06  2.6762e-06  8.4274e-04  5.5828e-04  0:03:23  969
+    32  4.6599e-03  2.3330e-06  2.4199e-06  7.9367e-04  5.2100e-04  0:02:42  968
+    33  4.2181e-03  2.0926e-06  2.2009e-06  7.4802e-04  4.8427e-04  0:02:10  967
+
+  iter  continuity  x-velocity  y-velocity           k       omega     time/iter
+    34  3.8306e-03  1.8661e-06  1.9998e-06  6.7364e-04  4.5375e-04  0:01:44  966
+    35  3.5103e-03  1.6664e-06  1.8338e-06  5.8919e-04  4.2593e-04  0:01:23  965
+    36  3.2178e-03  1.4811e-06  1.6909e-06  5.1652e-04  4.0057e-04  0:01:06  964
+    37  2.9537e-03  1.3305e-06  1.5569e-06  4.5531e-04  3.7727e-04  0:00:53  963
+    38  2.7181e-03  1.2214e-06  1.4352e-06  4.0268e-04  3.5518e-04  0:00:42  962
+    39  2.5039e-03  1.1212e-06  1.3259e-06  3.5707e-04  3.3413e-04  0:00:34  961
+    40  2.3057e-03  1.0274e-06  1.2258e-06  3.1942e-04  3.1459e-04  0:00:27  960
+    41  2.1483e-03  9.4025e-07  1.1345e-06  2.4817e-04  2.7262e-04  0:00:22  959
+    42  1.9992e-03  8.6109e-07  1.0422e-06  1.6974e-04  2.0563e-04  0:00:17  958
+    43  1.8004e-03  7.9392e-07  9.3950e-07  1.1352e-04  1.5088e-04  0:00:14  957
+    44  1.5996e-03  7.3169e-07  8.3936e-07  7.8574e-05  1.1047e-04  0:00:11  956
+
+  iter  continuity  x-velocity  y-velocity           k       omega     time/iter
+    45  1.4187e-03  6.7489e-07  7.5208e-07  6.1195e-05  8.1389e-05  0:00:09  955
+    46  1.2678e-03  6.2491e-07  6.7661e-07  5.1007e-05  6.0398e-05  0:00:07  954
+    47  1.1450e-03  5.7780e-07  6.0915e-07  4.3387e-05  4.7616e-05  0:00:06  953
+    48  1.0323e-03  5.2939e-07  5.4931e-07  3.7311e-05  3.7939e-05  0:00:04  952
+    49  9.3476e-04  4.8721e-07  4.9409e-07  3.2152e-05  3.0561e-05  0:00:04  951
+    50  8.4513e-04  4.4880e-07  4.4271e-07  2.7929e-05  2.4947e-05  0:00:03  950
+    51  7.6076e-04  4.1138e-07  3.9547e-07  2.3795e-05  2.0679e-05  0:00:02  949
+    52  6.8314e-04  3.7564e-07  3.5287e-07  2.0122e-05  1.7393e-05  0:00:02  948
+    53  6.1297e-04  3.4266e-07  3.1477e-07  1.7055e-05  1.4842e-05  0:03:11  947
+    54  5.4943e-04  3.1240e-07  2.8125e-07  1.4597e-05  1.2830e-05  0:02:33  946
+    55  4.9270e-04  2.8480e-07  2.5200e-07  1.2635e-05  1.1249e-05  0:02:02  945
+
+  iter  continuity  x-velocity  y-velocity           k       omega     time/iter
+    56  4.4233e-04  2.6012e-07  2.2583e-07  1.1085e-05  9.9471e-06  0:01:37  944
+    57  3.9788e-04  2.3766e-07  2.0246e-07  9.8197e-06  8.8535e-06  0:01:18  943
+    58  3.5849e-04  2.1739e-07  1.8154e-07  8.7654e-06  7.9212e-06  0:01:02  942
+    59  3.2338e-04  1.9903e-07  1.6289e-07  7.8606e-06  7.1170e-06  0:00:50  941
+    60  2.9217e-04  1.8259e-07  1.4651e-07  7.0758e-06  6.4174e-06  0:00:40  940
+    61  2.6445e-04  1.6797e-07  1.3205e-07  6.3927e-06  5.8051e-06  0:00:32  939
+    62  2.3988e-04  1.5555e-07  1.1936e-07  5.7969e-06  5.2673e-06  0:00:25  938
+    63  2.1827e-04  1.4459e-07  1.0836e-07  5.2817e-06  4.7935e-06  0:00:20  937
+    64  1.9921e-04  1.3492e-07  9.8730e-08  4.8410e-06  4.3754e-06  0:00:16  936
+    65  1.8237e-04  1.2649e-07  9.0233e-08  4.4563e-06  4.0063e-06  0:00:13  935
+    66  1.6745e-04  1.1905e-07  8.2708e-08  4.1469e-06  3.6799e-06  0:00:10  934
+
+  iter  continuity  x-velocity  y-velocity           k       omega     time/iter
+    67  1.5423e-04  1.1257e-07  7.6057e-08  3.9365e-06  3.3988e-06  0:00:08  933
+    68  1.4269e-04  1.0725e-07  7.0187e-08  3.7574e-06  3.1561e-06  0:00:07  932
+    69  1.3251e-04  1.0267e-07  6.5014e-08  3.6036e-06  2.9461e-06  0:00:05  931
+    70  1.2356e-04  9.8706e-08  6.0540e-08  3.4704e-06  2.7593e-06  0:00:04  930
+    71  1.1583e-04  9.5233e-08  5.6674e-08  3.3571e-06  2.5950e-06  0:00:03  929
+    72  1.0898e-04  9.2144e-08  5.3270e-08  3.2522e-06  2.4503e-06  0:00:03  928
+    73  1.0289e-04  8.9473e-08  5.0278e-08  3.1603e-06  2.3231e-06  0:00:02  927
+    74  9.7479e-05  8.7072e-08  4.7657e-08  3.1210e-06  2.2228e-06  0:00:02  926
+!   74 solution is converged
+Registering ReportDefFiles, ("C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\.\\drag-rfile.out" "C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\.\\lift-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\mter153\\AppData\\Local\\Temp\\flntgz-148922 ...
+Done.
+
+Writing data to C:\\Users\\mter153\\OneDrive - The University of Auckland\\Documents\\ENGSCI 344\\Assignment\\Plane_wing\\CFD_Wing_files\\dp11\\FFF\\Fluent\\FFF.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+
+Writing to EN424270:"C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\FFF-32.cas.h5" in NODE0 mode and compression level 1 ...
+  Writing mesh ...
+         444 cells,     1 zone  ...
+         924 faces,     5 zones ...
+         480 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to EN424270:"C:\Users\mter153\OneDrive - The University of Auckland\Documents\ENGSCI 344\Assignment\Plane_wing\CFD_Wing_files\dp11\FFF\Fluent\FFF-32-00074.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.
+
+Performance Timer for 74 iterations on 4 compute nodes
+  Average wall-clock time per iteration:              0.002 sec
+  Global reductions per iteration:                       56 ops
+  Global reductions time per iteration:               0.000 sec (0.0%)
+  Message count per iteration:                          654 messages
+  Data transfer per iteration:                        0.063 MB
+  LE solves per iteration:                                5 solves
+  LE wall-clock time per iteration:                   0.000 sec (17.1%)
+  LE global solves per iteration:                         2 solves
+  LE global wall-clock time per iteration:            0.000 sec (0.0%)
+  LE global matrix maximum size:                        16
+  AMG cycles per iteration:                           6.905 cycles
+  Relaxation sweeps per iteration:                       39 sweeps
+  Relaxation exchanges per iteration:                     0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                              363
+
+  Total wall-clock time:                              0.111 sec
+
+Transcript Stop Time:  13:43:14, 27 Sep 2023 New Zealand Daylight Time 
+Total Transcript Time: 0 Minute 16 Second.

@@ -1,0 +1,289 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+system1 = GetSystem(Name="FFF")
+setup1 = system1.GetContainer(ComponentName="Setup")
+fluentLauncherSettings1 = setup1.GetFluentLauncherSettings()
+fluentLauncherSettings1.SetEntityProperties(Properties=Set(EnvPath={}))
+setup1.Edit()
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"(cx-gui-do cx-activate-item "Key Behavioral Changes*PanelButtons*PushButton1(OK)")')
+setup1.SendCommand(Command='(%py-exec "preferences.General.KeyBehavioralChangesMessage.setState(True)")')
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Reference Values"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Reference Values"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Reference Values"))')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*FileMenu*Close Fluent")')
+fluentLauncherSettings1.SetEntityProperties(Properties=Set(EnvPath={}))
+setup1.Edit()
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"(cx-gui-do cx-activate-item "Key Behavioral Changes*PanelButtons*PushButton1(OK)")')
+setup1.SendCommand(Command='(%py-exec "preferences.General.KeyBehavioralChangesMessage.setState(True)")')
+mesh1.Edit()
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Boundary Conditions|Wall|walls (wall, id=36)"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Boundary Conditions|Wall|walls (wall, id=36)"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Boundary Conditions|Wall|walls (wall, id=36)"))(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 1)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 2)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 3)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 4)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 5)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 6)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 7)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 8)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 9)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 10)(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 1)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 2)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 3)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 4)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 5)(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)(cx-gui-do cx-activate-item "Wall*PanelButtons*PushButton2(Cancel)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*FileMenu*Close Fluent")')
+mesh1.Exit()
+fluentLauncherSettings1.SetEntityProperties(Properties=Set(EnvPath={}))
+setup1.Edit()
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"(cx-gui-do cx-activate-item "Key Behavioral Changes*PanelButtons*PushButton1(OK)")')
+setup1.SendCommand(Command='(%py-exec "preferences.General.KeyBehavioralChangesMessage.setState(True)")')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*FileMenu*Close Fluent")')
+system2 = GetSystem(Name="Geom")
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+designPoint1 = Parameters.GetDesignPoint(Name="1")
+designPoint1.Delete()
+designPoint2 = Parameters.GetDesignPoint(Name="3")
+designPoint2.Delete()
+designPoint3 = Parameters.GetDesignPoint(Name="4")
+designPoint3.Delete()
+designPoint4 = Parameters.GetDesignPoint(Name="2")
+designPoint4.Delete()
+designPoint5 = Parameters.GetDesignPoint(Name="0")
+parameter1 = Parameters.GetParameter(Name="P10")
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="2.6 [m]")
+parameter2 = Parameters.GetParameter(Name="P11")
+designPoint5.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="4.228 [m]")
+parameter3 = Parameters.GetParameter(Name="P12")
+designPoint5.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="2.6 [m]")
+parameter4 = Parameters.GetParameter(Name="P13")
+designPoint5.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="2.6 [m]")
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint5])
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+designPoint5.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="3 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="3 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="3.6 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="5.88 [m]")
+backgroundSession2 = UpdateAllDesignPoints(DesignPoints=[designPoint5])
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+parameter5 = Parameters.GetParameter(Name="P8")
+designPoint5.SetParameterExpression(
+    Parameter=parameter5,
+    Expression="2")
+backgroundSession3 = UpdateAllDesignPoints(DesignPoints=[designPoint5])
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+designPoint5.SetParameterExpression(
+    Parameter=parameter5,
+    Expression="10")
+meshComponent1 = system1.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1.Edit()
+mesh1.Exit()
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="4 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="10 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="8 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="12 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="6 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="6 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="10 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="14 [m]")
+designPoint6 = Parameters.CreateDesignPoint()
+parameter6 = Parameters.GetParameter(Name="P6")
+designPoint6.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.06 [m]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="5 [m]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="7 [m]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="9 [m]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="6 [m]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="10 [m]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="4.5 [m]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="4.5 [m]")
+designPoint6.Retained = True
+backgroundSession4 = UpdateAllDesignPoints(DesignPoints=[designPoint5, designPoint6])
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+geometry1.Edit()
+designPoint6.Delete()
+designPoint5.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="4.5 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="4.5 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="6 [m]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="10 [m]")
+backgroundSession5 = UpdateAllDesignPoints(DesignPoints=[designPoint5])
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+geometry1.Exit()
+designPoint7 = Parameters.CreateDesignPoint()
+designPoint7.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.05 [m]")
+designPoint8 = Parameters.CreateDesignPoint()
+designPoint8.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.04 [m]")
+designPoint9 = Parameters.CreateDesignPoint()
+designPoint9.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.03 [m]")
+designPoint10 = Parameters.CreateDesignPoint()
+designPoint10.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.02 [m]")
+designPoint11 = Parameters.CreateDesignPoint()
+designPoint11.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.01 [m]")
+mesh1.Edit()
+mesh1.Exit()
+geometry1.Edit()
+geometry1.Exit()
+fluentLauncherSettings1.SetEntityProperties(Properties=Set(EnvPath={}))
+setup1.Edit()
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"(cx-gui-do cx-activate-item "Key Behavioral Changes*PanelButtons*PushButton1(OK)")')
+setup1.SendCommand(Command='(%py-exec "preferences.General.KeyBehavioralChangesMessage.setState(True)")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Reference Values"))')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Reference Values"))(cx-gui-do cx-activate-item "NavigationPane*Frame2*Table1*List_Tree2")')
+setup1.SendCommand(Command='(cx-gui-do cx-set-list-tree-selections "NavigationPane*Frame2*Table1*List_Tree2" (list "Setup|Reference Values"))')
+setup1.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*FileMenu*Close Fluent")')
+parameter7 = Parameters.GetParameter(Name="P10")
+designPoint5.SetParameterExpression(
+    Parameter=parameter7,
+    Expression="5 [m]")
+parameter8 = Parameters.GetParameter(Name="P11")
+designPoint5.SetParameterExpression(
+    Parameter=parameter8,
+    Expression="20 [m]")
+parameter9 = Parameters.GetParameter(Name="P12")
+designPoint5.SetParameterExpression(
+    Parameter=parameter9,
+    Expression="4 [m]")
+parameter10 = Parameters.GetParameter(Name="P13")
+designPoint5.SetParameterExpression(
+    Parameter=parameter10,
+    Expression="4 [m]")
+designPoint7.Delete()
+designPoint8.Delete()
+designPoint9.Delete()
+designPoint10.Delete()
+designPoint11.Delete()
+designPoint5.SetParameterExpression(
+    Parameter=parameter8,
+    Expression="15 [m]")
+backgroundSession6 = UpdateAllDesignPoints(DesignPoints=[designPoint5])
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+geometry1.Edit()
+geometry1.Exit()
+designPoint5.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.08 [m]")
+backgroundSession7 = UpdateAllDesignPoints(DesignPoints=[designPoint5])
+setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+geometry1.Edit()
+geometry1.Exit()
+designPoint12 = Parameters.CreateDesignPoint()
+designPoint12.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.06 [m]")
+designPoint13 = Parameters.CreateDesignPoint()
+designPoint13.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.05 [m]")
+designPoint14 = Parameters.CreateDesignPoint()
+designPoint14.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.04 [m]")
+designPoint15 = Parameters.CreateDesignPoint()
+designPoint15.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.03 [m]")
+designPoint16 = Parameters.CreateDesignPoint()
+designPoint16.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.02 [m]")
+designPoint17 = Parameters.CreateDesignPoint()
+designPoint17.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="0.01 [m]")
+Save(Overwrite=True)
