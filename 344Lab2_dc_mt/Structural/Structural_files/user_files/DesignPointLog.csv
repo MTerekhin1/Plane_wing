@@ -14,3 +14,42 @@ DP 0,200,190,-5,30
 # A non parametric change occurred and invalidated design point results.
 # 09/26/2023 15:26:26
 # 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 10/06/2023 15:36:02
+# 
+# 
+# 10/06/2023 15:37:28
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - SparOuterDiam [mm],P2 - SparInnerDiam [mm],P5 - AngleOfAttack [degree],P4 - Mesh Element Size [mm],P6 - Maximum Deformation [mm],P7 - Maximum Strain [mm mm^-1],P8 - Mesh Nodes
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P5,P4,P6,P7,P8
+DP 0,180,160,5,60,68.451425936834369,0.0022058277390897274,6461
+DP 1,180,160,5,50,69.910367523605032,0.0021685438696295023,9407
+DP 2,180,160,5,40,70.454186755049278,0.0017892736941576004,14798
+DP 3,180,160,5,30,70.2044034189777,0.0018113137921318412,26204
+DP 4,180,160,5,20,69.496225047558909,0.0015732620959170163,57785
+# 
+# A non parametric change occurred and invalidated design point results.
+# 10/06/2023 15:49:12
+# 
+# 
+# 10/06/2023 15:50:10
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P1 - SparOuterDiam [mm],P2 - SparInnerDiam [mm],P5 - AngleOfAttack [degree],P4 - Mesh Element Size [mm],P6 - Maximum Deformation [mm],P7 - Maximum Strain [mm mm^-1],P8 - Mesh Nodes,P9 - Safety Factor Minimum
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P5,P4,P6,P7,P8,P9
+DP 1,180,160,5,50,69.910367523605032,0.0021685438696295023,9407,3.2215677903700826
+DP 2,180,160,5,40,70.454186755049278,0.0017892736941576004,14798,3.904439749307949
+DP 3,180,160,5,30,70.2044034189777,0.0018113137921318412,26204,3.8569304934073112
+DP 4,180,160,5,20,69.496225047558909,0.0015732620959170163,57785,4.4453035559419734
+DP 5,180,160,5,80,52.106611576876269,0.0013053328730165958,4622,5.3789182207990436
+DP 6,180,160,5,70,57.198279566840405,0.0017531135235913098,5365,4.12676957351789
+DP 7,180,160,5,100,54.402787444698525,0.0010055260499939322,3440,7.0325015437365543
+DP 8,180,160,5,90,47.274926595559648,0.000993851339444518,4244,7.0393738202646094
+# 
+# A non parametric change occurred and invalidated design point results.
+# 10/06/2023 16:38:54
+# 

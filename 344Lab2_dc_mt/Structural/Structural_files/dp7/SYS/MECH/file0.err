@@ -1,0 +1,27 @@
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       16:00:51
+
+ *** WARNING ***                         CP =       0.281   TIME= 16:00:52
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.281   TIME= 16:00:52
+ Meshes made up of 10 percent or more of SOLID185 tetrahedra are not     
+ recommended.                                                            
+
+ *** WARNING ***                         CP =       0.312   TIME= 16:00:52
+ Material number 15 (used by element 9737) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       0.344   TIME= 16:00:52
+ Node 18 connects both contact element 9719 and target element 9734.     
+ Please check the model carefully.                                       
+
+ *** WARNING ***                         CP =       0.344   TIME= 16:00:52
+ All selected contact pairs are initially open.  Rigid body motion can   
+ occur.  You may use auto CNOF/ICONT by setting KEYOPT(5) to close       
+ small gaps.                                                             
+
+ *** WARNING ***                         CP =       0.500   TIME= 16:00:52
+ Node 18 connects both contact element 9719 and target element 9734.     
+ Please check the model carefully.                                       
