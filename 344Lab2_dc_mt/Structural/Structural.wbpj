@@ -2,15 +2,16 @@
 <Storage>
   <Project Version="9.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">10208</timestamp-max>
+    <timestamp-max valType="Int64">11769</timestamp-max>
     <framework-build-version valType="String">22.1.217.0</framework-build-version>
     <external-version-string valType="String">2022 R1</external-version-string>
-    <last-saved-utc valType="String">09/26/2023 02:47:30</last-saved-utc>
+    <last-saved-utc valType="String">10/08/2023 21:45:08</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">dcla189@EN424268:C:\Users\dcla189\AppData\Local\Temp\WorkbenchLogs\CoreEvents9628.log</ArrayEntry>
       <ArrayEntry Index="1">dcla189@EN424275:C:\Users\dcla189\AppData\Local\Temp\WorkbenchLogs\CoreEvents16640.log</ArrayEntry>
       <ArrayEntry Index="2">dcla189@EN424275:C:\Users\dcla189\AppData\Local\Temp\WorkbenchLogs\CoreEvents20096.log</ArrayEntry>
+      <ArrayEntry Index="3">dcla189@EN424271:C:\Users\dcla189\AppData\Local\Temp\WorkbenchLogs\CoreEvents14568.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -202,7 +203,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10073, "Input": 1521, "Output": 1521}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 11658, "Input": 1521, "Output": 1521}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F1" Version="1.0">
@@ -213,7 +214,7 @@
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F2</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$dd55de5c-e980-487e-9294-a57febddd5da, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 48}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$dd55de5c-e980-487e-9294-a57febddd5da, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 49}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -322,13 +323,13 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10206, "Input": 10195, "Output": 1525}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 11759, "Input": 11760, "Output": 1525}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
-        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Solution in SYS"}, "Parameters": {"$$8a69b2ff-1ec1-4ce4-859d-ff08f792c75c": "180 [mm]", "$$abb9e382-6282-4b32-8729-ef868a0c1901": "160 [mm]", "$$2357470b-3afa-4313-a92c-ac629392b75f": "5 [degree]", "$$80774820-17aa-434f-8a04-b549e5ef7dcd": "30 [mm]"}, "ParameterErrors": {}, "CurrentValues": {"$$8a69b2ff-1ec1-4ce4-859d-ff08f792c75c": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "180 [mm]"}, "$$abb9e382-6282-4b32-8729-ef868a0c1901": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "160 [mm]"}, "$$2357470b-3afa-4313-a92c-ac629392b75f": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5 [degree]"}, "$$80774820-17aa-434f-8a04-b549e5ef7dcd": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30 [mm]"}, "$$3cc660fd-0be4-4738-a8ca-9fb3806f6114": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "70.2044028561835 [mm]"}, "$$56f0d14e-b650-47bf-8fa6-96382ffbbbd5": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.00181131379213184 [mm mm^-1]"}}, "ParameterStatus": {"$$8a69b2ff-1ec1-4ce4-859d-ff08f792c75c": "UpToDate", "$$abb9e382-6282-4b32-8729-ef868a0c1901": "UpToDate", "$$2357470b-3afa-4313-a92c-ac629392b75f": "UpToDate", "$$80774820-17aa-434f-8a04-b549e5ef7dcd": "UpToDate", "$$3cc660fd-0be4-4738-a8ca-9fb3806f6114": "UpToDate", "$$56f0d14e-b650-47bf-8fa6-96382ffbbbd5": "UpToDate"}, "Note": None, "IsUpToDate": True, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": True, "UpdateOrder": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Solution in SYS"}, "Parameters": {"$$8a69b2ff-1ec1-4ce4-859d-ff08f792c75c": "180 [mm]", "$$abb9e382-6282-4b32-8729-ef868a0c1901": "160 [mm]", "$$2357470b-3afa-4313-a92c-ac629392b75f": "5 [degree]", "$$80774820-17aa-434f-8a04-b549e5ef7dcd": "30 [mm]"}, "ParameterErrors": {}, "CurrentValues": {"$$8a69b2ff-1ec1-4ce4-859d-ff08f792c75c": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "180 [mm]"}, "$$abb9e382-6282-4b32-8729-ef868a0c1901": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "160 [mm]"}, "$$2357470b-3afa-4313-a92c-ac629392b75f": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5 [degree]"}, "$$80774820-17aa-434f-8a04-b549e5ef7dcd": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30 [mm]"}, "$$3cc660fd-0be4-4738-a8ca-9fb3806f6114": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "70.204402856183464 [mm]"}, "$$56f0d14e-b650-47bf-8fa6-96382ffbbbd5": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.00181131379213184 [mm mm^-1]"}}, "ParameterStatus": {"$$8a69b2ff-1ec1-4ce4-859d-ff08f792c75c": "UpToDate", "$$abb9e382-6282-4b32-8729-ef868a0c1901": "UpToDate", "$$2357470b-3afa-4313-a92c-ac629392b75f": "UpToDate", "$$80774820-17aa-434f-8a04-b549e5ef7dcd": "UpToDate", "$$3cc660fd-0be4-4738-a8ca-9fb3806f6114": "OutOfDate", "$$56f0d14e-b650-47bf-8fa6-96382ffbbbd5": "OutOfDate"}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": True, "UpdateOrder": 1}</member-data>
         <properties-setByUserFlag-data valType="String">["IsDataModelValid"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Parameters/DesignPointReportSetting:Design Points Report Setting" Version="1.0">
@@ -360,7 +361,7 @@
       <Object Name="/Parameters/Parameter:P6" Version="1.0">
         <class-type valType="String">Parameter</class-type>
         <object-name valType="String">P6</object-name>
-        <member-data valType="String">{"DisplayText": "Maximum Deformation", "PersistedNamedValueEntityReference": None, "Expression": None, "Usage": "DirectOutput", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "70.2044028561835 [mm]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "70.2044028561835 [mm]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Output", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
+        <member-data valType="String">{"DisplayText": "Maximum Deformation", "PersistedNamedValueEntityReference": None, "Expression": None, "Usage": "DirectOutput", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "70.204402856183464 [mm]"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "70.2044028561835 [mm]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Output", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Parameters/Parameter:P7" Version="1.0">
@@ -420,7 +421,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10122, "Input": 10100, "Output": 1528}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 11312, "Input": 11745, "Output": 1528}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:SYS" Version="1.0">
@@ -531,7 +532,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10062, "Input": 1884, "Output": 1884}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 11627, "Input": 1884, "Output": 1884}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
     </Container>
@@ -576,7 +577,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 8609, "Input": 10143, "Output": 1888}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8609, "Input": 11349, "Output": 1888}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/DpdbContainer/DpdbSettings:Dpdb Settings Entity" Version="1.0">

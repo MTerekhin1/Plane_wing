@@ -1,4 +1,4 @@
-﻿dp0/global/MECH/SYS.engd
+dp0/global/MECH/SYS.engd
 dp0/global/MECH/SYS.mechdb
 dp0/SYS/DM/SYS.agdb
 dp0/SYS/ENGD/EngineeringData.xml
@@ -19,6 +19,8 @@ dp0/designPoint.wbdp
 session_files/journal1.wbjn
 session_files/journal2.wbjn
 session_files/journal3.wbjn
+session_files/journal4_crashed.wbjn
+session_files/journal5.wbjn
 dp0/
 dpall/
 session_files/
