@@ -38,15 +38,15 @@ Material Properties
 
    Material: air (fluid)
 
-      Property                        Units      Method     Value(s)    
-      ---------------------------------------------------------------
-      Density                         kg/m^3     constant   1.069       
-      Cp (Specific Heat)              J/(kg K)   constant   1006.43     
-      Thermal Conductivity            W/(m K)    constant   0.0242      
-      Viscosity                       kg/(m s)   constant   1.745e-05   
-      Molecular Weight                kg/kmol    constant   28.966      
-      Thermal Expansion Coefficient   K^-1       constant   0           
-      Speed of Sound                  m/s        none       #f          
+      Property                        Units      Method     Value(s)   
+      --------------------------------------------------------------
+      Density                         kg/m^3     constant   1.154      
+      Cp (Specific Heat)              J/(kg K)   constant   1006.43    
+      Thermal Conductivity            W/(m K)    constant   0.0242     
+      Viscosity                       kg/(m s)   constant   1.77e-05   
+      Molecular Weight                kg/kmol    constant   28.966     
+      Thermal Expansion Coefficient   K^-1       constant   0          
+      Speed of Sound                  m/s        none       #f         
 
    Material: aluminum (solid)
 
@@ -88,8 +88,8 @@ Boundary Conditions
       -----------------------------
       inlet    5    velocity-inlet    
       outlet   6    pressure-outlet   
+      walls    7    wall              
       wing     8    wall              
-      walls    36   wall              
 
    Setup Conditions
 
@@ -99,24 +99,12 @@ Boundary Conditions
          -----------------------------------------------------------
          Velocity Magnitude [m/s]         65                           
          Turbulent Specification Method   Intensity and Length Scale   
-         Turbulent Intensity [%]          0.02205                      
-         Turbulent Length Scale [m]       0.144284                     
+         Turbulent Length Scale [m]       0.00035                      
 
       outlet
 
-         Condition                             Value                        
-         ----------------------------------------------------------------
-         Turbulent Specification Method        Intensity and Length Scale   
-         Backflow Turbulent Intensity [%]      0.02205                      
-         Backflow Turbulent Length Scale [m]   0.144284                     
-
-      wing
-
-         Condition                  Value             
-         ------------------------------------------
-         Wall Motion                Stationary Wall   
-         Shear Boundary Condition   No Slip           
-         Wall Surface Roughness     0                 
+         Condition   Value   
+         -----------------
 
       walls
 
@@ -124,6 +112,14 @@ Boundary Conditions
          ------------------------------------------
          Wall Motion                Stationary Wall   
          Shear Boundary Condition   Specified Shear   
+         Wall Surface Roughness     0                 
+
+      wing
+
+         Condition                  Value             
+         ------------------------------------------
+         Wall Motion                Stationary Wall   
+         Shear Boundary Condition   No Slip           
          Wall Surface Roughness     0                 
 
 </BoundaryConditions>
@@ -179,8 +175,8 @@ Solver Settings
       -----------------------------------------------
       Pressure                    Second Order          
       Momentum                    Second Order Upwind   
-      Turbulent Kinetic Energy    First Order Upwind    
-      Specific Dissipation Rate   First Order Upwind    
+      Turbulent Kinetic Energy    Second Order Upwind   
+      Specific Dissipation Rate   Second Order Upwind   
 
    Solution Limits
 
