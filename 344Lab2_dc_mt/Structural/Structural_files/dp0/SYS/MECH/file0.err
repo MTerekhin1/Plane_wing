@@ -1,19 +1,18 @@
-/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       15:40:12
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       13:22:18
 
- *** WARNING ***                         CP =       0.562   TIME= 15:40:13
+ *** WARNING ***                         CP =       0.328   TIME= 13:22:19
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** WARNING ***                         CP =       0.656   TIME= 15:40:13
- SOLID185 wedges are recommended only in regions of relatively low       
- stress gradients.                                                       
-
- *** WARNING ***                         CP =       0.750   TIME= 15:40:13
- Material number 15 (used by element 30494) should normally have at      
+ *** WARNING ***                         CP =       0.422   TIME= 13:22:19
+ Material number 10 (used by element 15350) should normally have at      
  least one MP or one TB type command associated with it.  Output of      
  energy by material may not be available.                                
 
- *** WARNING ***                         CP =       0.938   TIME= 15:40:13
- All selected contact pairs are initially open.  Rigid body motion can   
- occur.  You may use auto CNOF/ICONT by setting KEYOPT(5) to close       
- small gaps.                                                             
+ *** WARNING ***                         CP =       0.703   TIME= 13:22:19
+ Node 30 connects both contact element 11270 and target element 14698.   
+ Please check the model carefully.                                       
+
+ *** WARNING ***                         CP =       1.328   TIME= 13:22:20
+ Node 30 connects both contact element 11270 and target element 14698.   
+ Please check the model carefully.                                       

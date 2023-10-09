@@ -1,0 +1,19 @@
+/COM,ANSYS RELEASE 2022 R1           BUILD 22.1      UP20211129       13:50:51
+
+ *** WARNING ***                         CP =       0.562   TIME= 13:50:52
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.656   TIME= 13:50:52
+ SOLID185 wedges are recommended only in regions of relatively low       
+ stress gradients.                                                       
+
+ *** WARNING ***                         CP =       0.750   TIME= 13:50:52
+ Material number 15 (used by element 30494) should normally have at      
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
+
+ *** WARNING ***                         CP =       0.938   TIME= 13:50:52
+ All selected contact pairs are initially open.  Rigid body motion can   
+ occur.  You may use auto CNOF/ICONT by setting KEYOPT(5) to close       
+ small gaps.                                                             

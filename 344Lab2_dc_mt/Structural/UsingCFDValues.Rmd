@@ -1,0 +1,49 @@
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+
+```{r}
+# Load and filter
+df=read.csv("UsingCFDValues.csv", sep=",")
+df = df %>% na.omit()
+```
+
+
+```{r}
+# Plot Convergence
+
+ggplot(df, aes(x=Mesh.Nodes, y=Max.Deformation, label=Mesh.size..mm.)) + geom_point() + geom_line(aes(color=Mesh.Type)) + geom_text(vjust=1, hjust=1) + ggtitle("Mesh convergence Plot using values from CFD solver (labels=mesh size)")
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

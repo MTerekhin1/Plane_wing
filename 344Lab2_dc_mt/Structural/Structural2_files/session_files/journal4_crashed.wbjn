@@ -1,0 +1,86 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+parameter1 = Parameters.GetParameter(Name="P4")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="60 [mm]")
+designPoint2 = Parameters.CreateDesignPoint()
+designPoint2.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="50 [mm]")
+designPoint3 = Parameters.CreateDesignPoint()
+designPoint3.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="40 [mm]")
+designPoint4 = Parameters.CreateDesignPoint()
+designPoint4.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="30 [mm]")
+designPoint5 = Parameters.CreateDesignPoint()
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="20 [mm]")
+designPoint6 = Parameters.CreateDesignPoint()
+designPoint6.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="10 [mm]")
+system1 = GetSystem(Name="SYS")
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+setupComponent1 = system1.GetComponent(Name="Setup")
+setupComponent1.Refresh()
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Edit()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Exit()
+setup1.Edit()
+model1.Exit()
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint1, designPoint2, designPoint3, designPoint4, designPoint5, designPoint6])
+designPoint7 = Parameters.CreateDesignPoint()
+designPoint7.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="5 [mm]")
+results1 = system1.GetContainer(ComponentName="Results")
+results1.Edit()
+model1.Exit()
+backgroundSession2 = UpdateAllDesignPoints(DesignPoints=[designPoint6, designPoint7])
+setup1.Edit()
+model1.Exit()
+backgroundSession3 = UpdateAllDesignPoints(DesignPoints=[designPoint2, designPoint3, designPoint4, designPoint5, designPoint6, designPoint7])
+designPoint2.Retained = True
+designPoint3.Retained = True
+designPoint4.Retained = True
+designPoint5.Retained = True
+designPoint6.Retained = True
+designPoint7.Retained = True
+backgroundSession4 = UpdateAllDesignPoints(DesignPoints=[designPoint6])
+backgroundSession5 = UpdateAllDesignPoints(DesignPoints=[designPoint6])
+backgroundSession6 = UpdateAllDesignPoints(DesignPoints=[designPoint6, designPoint7])
+designPoint6.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="80 [mm]")
+designPoint7.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="70 [mm]")
+backgroundSession7 = UpdateAllDesignPoints(DesignPoints=[designPoint6, designPoint7])
+designPoint8 = Parameters.CreateDesignPoint()
+designPoint8.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="100 [mm]")
+designPoint9 = Parameters.CreateDesignPoint()
+designPoint9.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="90 [mm]")
+designPoint2.Retained = True
+designPoint3.Retained = True
+designPoint4.Retained = True
+designPoint5.Retained = True
+designPoint6.Retained = True
+designPoint7.Retained = True
+designPoint8.Retained = True
+designPoint9.Retained = True
+backgroundSession8 = UpdateAllDesignPoints(DesignPoints=[designPoint8, designPoint9])
+results1.Edit()
+model1.Exit()

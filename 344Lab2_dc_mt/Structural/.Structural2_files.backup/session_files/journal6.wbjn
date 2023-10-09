@@ -1,0 +1,120 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+designPoint1 = Parameters.CreateDesignPoint()
+parameter1 = Parameters.GetParameter(Name="P1")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="180 [mm]")
+designPoint2 = Parameters.CreateDesignPoint()
+designPoint2.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="180 [mm]")
+designPoint3 = Parameters.CreateDesignPoint()
+designPoint3.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="180 [mm]")
+designPoint4 = Parameters.CreateDesignPoint()
+designPoint4.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="190 [mm]")
+designPoint5 = Parameters.CreateDesignPoint()
+designPoint5.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="190 [mm]")
+designPoint6 = Parameters.CreateDesignPoint()
+designPoint6.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="190 [mm]")
+designPoint7 = Parameters.CreateDesignPoint()
+designPoint7.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="190 [mm]")
+designPoint8 = Parameters.CreateDesignPoint()
+designPoint8.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="200 [mm]")
+designPoint9 = Parameters.CreateDesignPoint()
+designPoint9.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="200 [mm]")
+designPoint10 = Parameters.CreateDesignPoint()
+designPoint10.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="200 [mm]")
+designPoint11 = Parameters.CreateDesignPoint()
+designPoint11.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="200 [mm]")
+designPoint12 = Parameters.CreateDesignPoint()
+designPoint12.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="210 [mm]")
+designPoint13 = Parameters.CreateDesignPoint()
+designPoint13.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="210 [mm]")
+designPoint14 = Parameters.CreateDesignPoint()
+designPoint14.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="210 [mm]")
+designPoint15 = Parameters.CreateDesignPoint()
+designPoint15.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="210 [mm]")
+parameter2 = Parameters.GetParameter(Name="P2")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="165 [mm]")
+designPoint2.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="170 [mm]")
+designPoint3.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="175 [mm]")
+designPoint4.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="170 [mm]")
+designPoint5.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="175 [mm]")
+designPoint6.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="180 [mm]")
+designPoint7.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="185 [mm]")
+designPoint8.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="180 [mm]")
+designPoint9.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="185 [mm]")
+designPoint10.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="190 [mm]")
+designPoint11.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="195 [mm]")
+designPoint12.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="190 [mm]")
+designPoint13.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="195 [mm]")
+designPoint14.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="200 [mm]")
+designPoint15.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="205 [mm]")
+Save(Overwrite=True)
+designPoint16 = Parameters.GetDesignPoint(Name="0")
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint16, designPoint1, designPoint2, designPoint3, designPoint4, designPoint5, designPoint6, designPoint7, designPoint8, designPoint9, designPoint10, designPoint11, designPoint12, designPoint13, designPoint14, designPoint15])
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Edit()
+Save(Overwrite=True)
