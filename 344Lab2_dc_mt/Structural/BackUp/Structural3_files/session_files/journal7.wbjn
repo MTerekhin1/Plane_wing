@@ -1,0 +1,15 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+designPoint1 = Parameters.GetDesignPoint(Name="9")
+backgroundSession1 = UpdateAllDesignPoints(DesignPoints=[designPoint1])
+system1 = GetSystem(Name="SYS")
+solution1 = system1.GetContainer(ComponentName="Solution")
+solution1.Edit()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Exit()
+model1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)

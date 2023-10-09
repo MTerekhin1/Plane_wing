@@ -93,7 +93,7 @@
           </PropertyData>
           <PropertyData property="pr5">
             <Data format="string">-</Data>
-            <ParameterValue parameter="pa10" format="float">
+            <ParameterValue parameter="pa11" format="float">
               <Data>250000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -339,7 +339,7 @@
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa11" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>0.3</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -445,7 +445,7 @@
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">GPa</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa11" format="float">
+            <ParameterValue parameter="pa10" format="float">
               <Data>0.33</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -554,7 +554,7 @@
           <Name>Temperature</Name>
           <Units name="Temperature" />
         </ParameterDetails>
-        <ParameterDetails id="pa10">
+        <ParameterDetails id="pa11">
           <Name>Tensile Yield Strength</Name>
           <Units name="Stress" />
         </ParameterDetails>
@@ -624,7 +624,7 @@
           <Name>Young's Modulus</Name>
           <Units name="Stress" />
         </ParameterDetails>
-        <ParameterDetails id="pa11">
+        <ParameterDetails id="pa10">
           <Name>Poisson's Ratio</Name>
         </ParameterDetails>
         <ParameterDetails id="pa12">

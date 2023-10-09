@@ -228,3 +228,60 @@ designPoint24.Delete()
 designPoint23.Delete()
 backgroundSession4 = UpdateAllDesignPoints(DesignPoints=[designPoint16, designPoint17, designPoint18, designPoint19, designPoint20, designPoint21, designPoint22])
 geometry1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+parameter4 = Parameters.GetParameter(Name="P12")
+designPoint17.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="10 [mm]")
+designPoint18.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="7 [mm]")
+parameter5 = Parameters.GetParameter(Name="P10")
+designPoint19.SetParameterExpression(
+    Parameter=parameter5,
+    Expression="25 [mm]")
+parameter6 = Parameters.GetParameter(Name="P15")
+designPoint19.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="105 [mm]")
+designPoint20.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="105 [mm]")
+designPoint21.SetParameterExpression(
+    Parameter=parameter6,
+    Expression="105 [mm]")
+designPoint20.SetParameterExpression(
+    Parameter=parameter5,
+    Expression="25 [mm]")
+designPoint20.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="10 [mm]")
+designPoint21.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="10 [mm]")
+parameter7 = Parameters.GetParameter(Name="P14")
+designPoint21.SetParameterExpression(
+    Parameter=parameter7,
+    Expression="89.3 [degree]")
+designPoint22.SetParameterExpression(
+    Parameter=parameter7,
+    Expression="89.1 [degree]")
+designPoint22.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="10 [mm]")
+Save(Overwrite=True)
+backgroundSession5 = UpdateAllDesignPoints(DesignPoints=[designPoint17, designPoint18, designPoint19, designPoint20, designPoint21, designPoint22])
+setup1.Edit()
+Save(Overwrite=True)
