@@ -291,3 +291,35 @@ DP 8,0.5,6,0.02,93362,6,6,18,0.5647303,1.9483123,2241.2899,7732.4213,15
 DP 9,0.5,6,0.02,93350,6,6,18,0.65181754,1.4624917,2586.9199,5804.3067,20
 DP 0,0.5,6,0.08,10177,6,6,18,0.018304341,0.24248803,72.645887,962.38144,0
 DP 1,0.5,6,0.03,35170,6,6,18,0.012302772,0.28805285,48.826984,1143.2181,0
+# 
+# 10/09/2023 11:02:10
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P14 - Mesh Element Size [m],P13 - XYPlane.V9 [m],P15 - Face Sizing Element Size [m],P9 - Mesh Nodes,P12 - XYPlane.V8 [m],P10 - XYPlane.H6 [m],P11 - XYPlane.H7 [m],P31 - drag-op,P29 - lift-op,P30 - drag_force-op [N],P28 - lift_force-op [N],P32 - Rotate1.FD9 [degree]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P14,P13,P15,P9,P12,P10,P11,P31,P29,P30,P28,P32
+DP 0,0.5,6,0.02,93034,6,6,18,0.010852244,0.26683823,43.070159,1059.022,0
+DP 1,0.5,6,0.02,93362,6,6,18,0.56372202,1.9283306,2237.2882,7653.1184,15
+DP 1,0.5,6,0.02,93790,6,6,18,0.13597413,0.86308275,539.6513,3425.3848,14
+# 
+# A non parametric change occurred and invalidated design point results.
+# 10/09/2023 11:09:06
+# 
+# 
+# A non parametric change occurred and invalidated design point results.
+# 10/09/2023 11:59:18
+# 
+# 
+# 10/09/2023 12:01:58
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P14 - Mesh Element Size [m],P13 - XYPlane.V9 [m],P15 - Face Sizing Element Size [m],P9 - Mesh Nodes,P12 - XYPlane.V8 [m],P10 - XYPlane.H6 [m],P11 - XYPlane.H7 [m],P31 - drag-op,P29 - lift-op,P30 - drag_force-op [N],P28 - lift_force-op [N],P32 - Rotate1.FD9 [degree]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P14,P13,P15,P9,P12,P10,P11,P31,P29,P30,P28,P32
+DP 0,0.5,6,0.02,92954,6,6,18,0.019650491,-0.22266893,77.988459,-883.72382,-5
+DP 1,0.5,6,0.02,93034,6,6,18,0.010934205,0.26385447,43.395446,1047.1801,0
+DP 2,0.5,6,0.02,93062,6,6,18,0.017266888,0.7669839,68.528466,3043.9897,5
+DP 3,0.5,6,0.02,93178,6,6,18,0.042076978,0.96852299,166.99423,3843.8538,10
+DP 4,0.5,6,0.02,93362,6,6,18,0.54560753,1.9600152,2165.3958,7778.8676,15
+DP 5,0.5,6,0.02,93350,6,6,18,0.73006787,1.658867,2897.4781,6583.6768,20
+DP 2,0.5,6,0.02,93062,6,6,18,0.017217604,0.7671543,68.332867,3044.666,5
