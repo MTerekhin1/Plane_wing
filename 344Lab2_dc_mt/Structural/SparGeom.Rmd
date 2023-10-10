@@ -7,11 +7,11 @@ library(ggplot2)
 
 ```{r}
 # Load and filter
-df=read_csv("Precision.csv")
+df=read_csv("SparGeom.csv")
 df2=read_csv("SparGeom.csv")
 df = df %>% na.omit()
 df$Spar_Outer_Diam = as.factor(df$Spar_Outer_Diam)
-#df = df %>% filter(Min_Safety_Factor>0.5)
+df = df %>% filter(Min_Safety_Factor>0.5)
 df = df %>% mutate(OuterDiameter_mm = Spar_Outer_Diam)
 ```
 

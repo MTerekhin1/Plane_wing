@@ -15,7 +15,7 @@ df = df %>% na.omit()
 ```{r}
 # Plot Convergence
 
-ggplot(df, aes(x=Mesh.Nodes, y=Max.Deformation, label=Mesh.size..mm.)) + geom_point() + geom_line(aes(color=Mesh.Type)) + geom_text(vjust=1, hjust=1) + ggtitle("Mesh convergence Plot using values from CFD solver (labels=mesh size)")
+ggplot(df, aes(x=Mesh.Nodes, y=Max.Deformation, label=paste0(Mesh.size..mm.,"mm"))) + geom_line(aes(color=Mesh.Type), size=2) + geom_point() + geom_text(vjust=1, hjust=0, size=3) + ggtitle("Mesh convergence Plot using values from CFD solver (labels=mesh size)")
 
 
 ```

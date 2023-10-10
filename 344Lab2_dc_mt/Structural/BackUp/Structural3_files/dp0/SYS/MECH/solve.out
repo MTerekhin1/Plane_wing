@@ -97,13 +97,13 @@
   DISTRIBUTED MEMORY PARALLEL REQUESTED
        2 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
     TOTAL OF     2 CORES REQUESTED
-  INPUT FILE NAME              = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\_ProjectScratch\ScrA250\dummy.dat
-  OUTPUT FILE NAME             = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\_ProjectScratch\ScrA250\solve.out
+  INPUT FILE NAME              = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\_ProjectScratch\Scr57E5\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\_ProjectScratch\Scr57E5\solve.out
   START-UP FILE MODE           = NOREAD
   STOP FILE MODE               = NOREAD
 
  RELEASE= 2022 R1              BUILD= 22.1      UP20211129   VERSION=WINDOWS x64 
- CURRENT JOBNAME=file0  14:37:08  OCT 09, 2023 CP=      0.031
+ CURRENT JOBNAME=file0  11:46:48  OCT 10, 2023 CP=      0.062
 
 
  PARAMETER _DS_PROGRESS =     999.0000000    
@@ -112,14 +112,14 @@
 
 
 
- *** NOTE ***                            CP =       0.094   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.125   TIME= 11:46:48
  The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
  solution.  Command is ignored.                                          
 
- *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.6191667    
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.7800000    
 
  TITLE= 
- Structural2--Static Structural (A5)                                           
+ Structural3--Static Structural (A5)                                           
 
   ACT Extensions:
       LSDYNA, 2021.1
@@ -129,17 +129,17 @@
  SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\_ProjectScratch\ScrA250\
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\_ProjectScratch\Scr57E5\
 
  SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\Structural2_files\dp0\SYS\MECH\
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\Structural3_files\dp0\SYS\MECH\
 
  SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_USERFILES_DIR(1) = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\Structural2_files\user_files\
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\Structural3_files\user_files\
  --- Data in consistent NMM units. See Solving Units in the help system for more
 
  MPA UNITS SPECIFIED FOR INTERNAL    
@@ -156,9 +156,9 @@
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2022 R1          22.1     ***
  DISTRIBUTED Ansys Mechanical Enterprise Academic Research     
 
- 00000000  VERSION=WINDOWS x64   14:37:09  OCT 09, 2023 CP=      0.094
+ 00000000  VERSION=WINDOWS x64   11:46:48  OCT 10, 2023 CP=      0.141
 
- Structural2--Static Structural (A5)                                           
+ Structural3--Static Structural (A5)                                           
 
 
 
@@ -182,24 +182,22 @@
  *********** Send Sheet Properties ***********
  *********** Create Contact "Contact Region 8" ***********
              Real Constant Set For Above Contact Is 14 & 13
- *********** Create Contact "Contact Region 2" ***********
-             Real Constant Set For Above Contact Is 16 & 15
  *********** Fixed Supports ***********
  *********** Define Force Using Surface Effect Elements ***********
 
 
- ***** ROUTINE COMPLETED *****  CP =         0.438
+ ***** ROUTINE COMPLETED *****  CP =         0.516
 
 
- --- Number of total nodes = 26722
- --- Number of contact elements = 22490
+ --- Number of total nodes = 26204
+ --- Number of contact elements = 18774
  --- Number of spring elements = 0
  --- Number of bearing elements = 0
- --- Number of solid elements = 24467
+ --- Number of solid elements = 24067
  --- Number of condensed parts = 0
- --- Number of total elements = 46957
+ --- Number of total elements = 42841
 
- *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.6191667    
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.7802778    
  ****************************************************************************
  *************************    SOLUTION       ********************************
  ****************************************************************************
@@ -228,33 +226,33 @@
  ******************* SOLVE FOR LS 1 OF 1 ****************
 
  SELECT       FOR ITEM=TYPE COMPONENT=    
-  IN RANGE        17 TO         17 STEP          1
+  IN RANGE        15 TO         15 STEP          1
 
-      18656  ELEMENTS (OF      46957  DEFINED) SELECTED BY  ESEL  COMMAND.
+      18656  ELEMENTS (OF      42841  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
-      18744 NODES (OF      26722  DEFINED) SELECTED FROM
+      18744 NODES (OF      26204  DEFINED) SELECTED FROM
     18656 SELECTED ELEMENTS BY NSLE COMMAND.
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
-     VALUES =    0.90106E-05    0.90106E-05    0.90106E-05    0.90106E-05
+     VALUES =    0.90105E-05    0.90105E-05    0.90105E-05    0.90105E-05
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  2   KVAL = 1
-     VALUES =    0.90106E-03    0.90106E-03    0.90106E-03    0.90106E-03
+     VALUES =    0.90105E-03    0.90105E-03    0.90105E-03    0.90105E-03
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  3   KVAL = 1
      VALUES =     0.0000         0.0000         0.0000         0.0000    
 
  ALL SELECT   FOR ITEM=NODE COMPONENT=    
-  IN RANGE         1 TO      26722 STEP          1
+  IN RANGE         1 TO      26204 STEP          1
 
-      26722  NODES (OF      26722  DEFINED) SELECTED BY NSEL  COMMAND.
+      26204  NODES (OF      26204  DEFINED) SELECTED BY NSEL  COMMAND.
 
  ALL SELECT   FOR ITEM=ELEM COMPONENT=    
-  IN RANGE         1 TO      53807 STEP          1
+  IN RANGE         1 TO      49149 STEP          1
 
-      46957  ELEMENTS (OF      46957  DEFINED) SELECTED BY  ESEL  COMMAND.
+      42841  ELEMENTS (OF      42841  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  PRINTOUT RESUMED BY /GOP
 
@@ -305,26 +303,26 @@
 
  *ENDIF
 
- *** NOTE ***                            CP =       0.562   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.578   TIME= 11:46:49
  The automatic domain decomposition logic has selected the MESH domain   
  decomposition method with 2 processes per solution.                     
 
  *****  ANSYS SOLVE    COMMAND  *****
 
- *** WARNING ***                         CP =       0.562   TIME= 14:37:09
+ *** WARNING ***                         CP =       0.594   TIME= 11:46:49
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** WARNING ***                         CP =       0.656   TIME= 14:37:09
+ *** WARNING ***                         CP =       0.688   TIME= 11:46:49
  SOLID185 wedges are recommended only in regions of relatively low       
  stress gradients.                                                       
 
- *** NOTE ***                            CP =       0.688   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.719   TIME= 11:46:49
  The model data was checked and warning messages were found.             
   Please review output or errors file ( C:\Users\dcla189\OneDrive - The  
  University of Auckland\2023 Sem2\344                                    
- Project\Plane_wing\344Lab2_dc_mt\Structural\_ProjectScratch\ScrA250\fil 
- le0.err ) for these warning messages.                                   
+ Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\_ProjectScratch\Scr5 
+ 57E5\file0.err ) for these warning messages.                            
 
  *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
       --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
@@ -416,9 +414,9 @@
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2022 R1          22.1     ***
  DISTRIBUTED Ansys Mechanical Enterprise Academic Research     
 
- 00000000  VERSION=WINDOWS x64   14:37:09  OCT 09, 2023 CP=      0.719
+ 00000000  VERSION=WINDOWS x64   11:46:49  OCT 10, 2023 CP=      0.750
 
- Structural2--Static Structural (A5)                                           
+ Structural3--Static Structural (A5)                                           
 
 
 
@@ -431,23 +429,23 @@
    EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
    GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
 
- *** WARNING ***                         CP =       0.750   TIME= 14:37:09
- Material number 17 (used by element 35152) should normally have at      
+ *** WARNING ***                         CP =       0.766   TIME= 11:46:49
+ Material number 15 (used by element 30494) should normally have at      
  least one MP or one TB type command associated with it.  Output of      
  energy by material may not be available.                                
 
- *** NOTE ***                            CP =       0.875   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.859   TIME= 11:46:49
  The step data was checked and warning messages were found.              
   Please review output or errors file ( C:\Users\dcla189\OneDrive - The  
  University of Auckland\2023 Sem2\344                                    
- Project\Plane_wing\344Lab2_dc_mt\Structural\_ProjectScratch\ScrA250\fil 
- le0.err ) for these warning messages.                                   
+ Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\_ProjectScratch\Scr5 
+ 57E5\file0.err ) for these warning messages.                            
 
- *** NOTE ***                            CP =       0.875   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.859   TIME= 11:46:49
  The conditions for direct assembly have been met.  No .emat or .erot    
  files will be produced.                                                 
 
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.984   TIME= 11:46:49
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 13 and contact element type 13 has been set up.  The       
  companion pair has real constant set ID 14.  Both pairs should have     
@@ -458,26 +456,26 @@
  Contact algorithm: Augmented Lagrange method
  Contact detection at: Gauss integration point
  Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.17186E+06
+ The resulting initial contact stiffness      0.19759E+06
  Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.67882    
+ The resulting penetration tolerance          0.68567    
  Default opening contact stiffness OPSF will be used.
  Default tangent stiffness factor FKT          1.0000    
  Use constant contact stiffness
  Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length                22.627    
- Average contact pair depth                    6.7882    
- Average target surface length                 27.848    
+ Average contact surface length                22.856    
+ Average contact pair depth                    6.8567    
+ Average target surface length                 24.164    
  User defined pinball region PINB              13.156    
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.984   TIME= 11:46:49
  No contact was detected for this contact pair.                          
  ****************************************
   
 
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.984   TIME= 11:46:49
  Symmetric Deformable- deformable contact pair identified by real        
  constant set 14 and contact element type 13 has been set up.  The       
  companion pair has real constant set ID 13.  Both pairs should have     
@@ -488,90 +486,26 @@
  Contact algorithm: Augmented Lagrange method
  Contact detection at: Gauss integration point
  Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.17186E+06
+ The resulting initial contact stiffness      0.19759E+06
  Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.83789    
+ The resulting penetration tolerance          0.72877    
  Default opening contact stiffness OPSF will be used.
  Default tangent stiffness factor FKT          1.0000    
  Use constant contact stiffness
  Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length                27.930    
- Average contact pair depth                    8.3789    
- Average target surface length                 20.795    
+ Average contact surface length                24.292    
+ Average contact pair depth                    7.2877    
+ Average target surface length                 21.470    
  User defined pinball region PINB              13.156    
  Initial penetration/gap is excluded.
  Bonded contact (always) is defined.
 
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
+ *** NOTE ***                            CP =       0.984   TIME= 11:46:49
  No contact was detected for this contact pair.                          
  ****************************************
   
 
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
- Symmetric Deformable- deformable contact pair identified by real        
- constant set 15 and contact element type 15 has been set up.  The       
- companion pair has real constant set ID 16.  Both pairs should have     
- the same behavior.                                                      
- ANSYS will deactivate the current pair and keep its companion pair,     
- resulting in asymmetric contact.                                        
- Linear contact is defined
- Contact algorithm: Augmented Lagrange method
- Contact detection at: Gauss integration point
- Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.16100E+06
- Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.88948    
- Default opening contact stiffness OPSF will be used.
- Default tangent stiffness factor FKT          1.0000    
- Use constant contact stiffness
- Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length                29.644    
- Average contact pair depth                    8.8948    
- Average target surface length                 29.812    
- User defined pinball region PINB              13.156    
- *WARNING*: The user defined pinball radius may be too small to capture  
- contacting zone under small sliding assumption.                         
- Initial penetration/gap is excluded.
- Bonded contact (always) is defined.
-
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
- No contact was detected for this contact pair.                          
- ****************************************
-  
-
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
- Symmetric Deformable- deformable contact pair identified by real        
- constant set 16 and contact element type 15 has been set up.  The       
- companion pair has real constant set ID 15.  Both pairs should have     
- the same behavior.                                                      
- ANSYS will keep the current pair and deactivate its companion pair,     
- resulting in asymmetric contact.                                        
- Linear contact is defined
- Contact algorithm: Augmented Lagrange method
- Contact detection at: Gauss integration point
- Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.16100E+06
- Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.89440    
- Default opening contact stiffness OPSF will be used.
- Default tangent stiffness factor FKT          1.0000    
- Use constant contact stiffness
- Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length                29.813    
- Average contact pair depth                    8.9440    
- Average target surface length                 29.610    
- User defined pinball region PINB              13.156    
- *WARNING*: The user defined pinball radius may be too small to capture  
- contacting zone under small sliding assumption.                         
- Initial penetration/gap is excluded.
- Bonded contact (always) is defined.
-
- *** NOTE ***                            CP =       1.156   TIME= 14:37:09
- No contact was detected for this contact pair.                          
- ****************************************
-  
-
- *** WARNING ***                         CP =       1.156   TIME= 14:37:09
+ *** WARNING ***                         CP =       0.984   TIME= 11:46:49
  All selected contact pairs are initially open.  Rigid body motion can   
  occur.  You may use auto CNOF/ICONT by setting KEYOPT(5) to close       
  small gaps.                                                             
@@ -582,10 +516,10 @@
   
      D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
   
-  ...Number of elements: 46957
-  ...Number of nodes:    26722
+  ...Number of elements: 42841
+  ...Number of nodes:    26204
   ...Decompose to 2 CPU domains
-  ...Element load balance ratio =     1.052
+  ...Element load balance ratio =     1.069
 
 
                       L O A D   S T E P   O P T I O N S
@@ -611,113 +545,37 @@
 
  SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
 
- *** NOTE ***                            CP =       1.906   TIME= 14:37:09
- Symmetric Deformable- deformable contact pair identified by real        
- constant set 13 and contact element type 13 has been set up.  The       
- companion pair has real constant set ID 14.  Both pairs should have     
- the same behavior.                                                      
- ANSYS will keep the current pair and deactivate its companion pair,     
- resulting in asymmetric contact.                                        
- Linear contact is defined
- Contact algorithm: Augmented Lagrange method
- Contact detection at: Gauss integration point
- Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.17186E+06
- Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.67882    
- Default opening contact stiffness OPSF will be used.
- Default tangent stiffness factor FKT          1.0000    
- Use constant contact stiffness
- Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length                22.627    
- Average contact pair depth                    6.7882    
- Average target surface length                 27.848    
- User defined pinball region PINB              13.156    
- Initial penetration/gap is excluded.
- Bonded contact (always) is defined.
-
- *** NOTE ***                            CP =       1.906   TIME= 14:37:09
- No contact was detected for this contact pair.                          
- ****************************************
-  
-
- *** NOTE ***                            CP =       1.906   TIME= 14:37:09
- Symmetric Deformable- deformable contact pair identified by real        
- constant set 14 and contact element type 13 has been set up.  The       
- companion pair has real constant set ID 13.  Both pairs should have     
- the same behavior.                                                      
- ANSYS will deactivate the current pair and keep its companion pair,     
- resulting in asymmetric contact.                                        
- Linear contact is defined
- Contact algorithm: Augmented Lagrange method
- Contact detection at: Gauss integration point
- Contact stiffness factor FKN                  10.000    
- The resulting initial contact stiffness      0.17186E+06
- Default penetration tolerance factor FTOLN   0.10000    
- The resulting penetration tolerance          0.83789    
- Default opening contact stiffness OPSF will be used.
- Default tangent stiffness factor FKT          1.0000    
- Use constant contact stiffness
- Default Max. friction stress TAUMAX          0.10000E+21
- Average contact surface length                27.930    
- Average contact pair depth                    8.3789    
- Average target surface length                 20.795    
- User defined pinball region PINB              13.156    
- Initial penetration/gap is excluded.
- Bonded contact (always) is defined.
-
- *** NOTE ***                            CP =       1.906   TIME= 14:37:09
- No contact was detected for this contact pair.                          
- ****************************************
-  
-
- *** NOTE ***                            CP =       2.031   TIME= 14:37:10
+ *** NOTE ***                            CP =       1.703   TIME= 11:46:49
  Predictor is ON by default for structural elements with rotational      
  degrees of freedom.  Use the PRED,OFF command to turn the predictor     
  OFF if it adversely affects the convergence.                            
 
-  
- *************************************************
-  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          13
-
- *** NOTE ***                            CP =       3.406   TIME= 14:37:11
- No contact was detected.                                                
- Max.  Pinball distance 13.1563014.                                      
- One of the contact searching regions contains at least 9 target         
- elements.                                                               
- *************************************************
-  
- *************************************************
-  SUMMARY FOR CONTACT PAIR IDENTIFIED BY REAL CONSTANT SET          14
-
- *** NOTE ***                            CP =       3.406   TIME= 14:37:11
- Contact pair is inactive.                                               
 
 
                          ***********  PRECISE MASS SUMMARY  ***********
 
    TOTAL RIGID BODY MASS MATRIX ABOUT ORIGIN
                Translational mass               |   Coupled translational/rotational mass
-        0.91955E-01    0.0000        0.0000     |     0.0000        227.12       0.52990    
-         0.0000       0.91955E-01    0.0000     |    -227.12        0.0000        2.4860    
-         0.0000        0.0000       0.91955E-01 |   -0.52990       -2.4860        0.0000    
+        0.10290        0.0000        0.0000     |     0.0000        254.41       0.52990    
+         0.0000       0.10290        0.0000     |    -254.41        0.0000        2.4860    
+         0.0000        0.0000       0.10290     |   -0.52990       -2.4860        0.0000    
      ------------------------------------------ | ------------------------------------------
                                                 |         Rotational mass (inertia)
-                                                |    0.76113E+06    555.43       -6186.3    
-                                                |     555.43       0.76699E+06    1300.0    
-                                                |    -6186.3        1300.0        6928.0    
+                                                |    0.85207E+06    555.40       -6186.4    
+                                                |     555.40       0.85793E+06    1300.0    
+                                                |    -6186.4        1300.0        6876.5    
 
-   TOTAL MASS = 0.91955E-01
+   TOTAL MASS = 0.10290    
      The mass principal axes coincide with the global Cartesian axes
 
-   CENTER OF MASS (X,Y,Z)=    27.035       -5.7626        2469.9    
+   CENTER OF MASS (X,Y,Z)=    24.159       -5.1496        2472.3    
 
    TOTAL INERTIA ABOUT CENTER OF MASS
-        0.20019E+06    541.10       -46.253    
-         541.10       0.20598E+06   -8.7760    
-        -46.253       -8.7760        6857.7    
+        0.22308E+06    542.60       -40.283    
+         542.60       0.22889E+06   -10.070    
+        -40.283       -10.070        6813.7    
 
-   PRINCIPAL INERTIAS =   0.20014E+06   0.20603E+06    6857.7    
+   PRINCIPAL INERTIAS =   0.22303E+06   0.22894E+06    6813.7    
    ORIENTATION VECTORS OF THE INERTIA PRINCIPAL AXES IN GLOBAL CARTESIAN
      ( 0.996,-0.092,-0.000) ( 0.092, 0.996,-0.000) ( 0.000, 0.000, 1.000) 
 
@@ -725,147 +583,143 @@
   *** MASS SUMMARY BY ELEMENT TYPE ***
 
   TYPE      MASS
-     1  0.171875E-02
-     2  0.640160E-01
-     3  0.615047E-03
-     4  0.615051E-03
-     5  0.615049E-03
-     6  0.615188E-03
-     7  0.741643E-04
-     8  0.741643E-04
-     9  0.741643E-04
-    10  0.741643E-04
-    11  0.741643E-04
+     1  0.176540E-02
+     2  0.749438E-01
+     3  0.631853E-03
+     4  0.631871E-03
+     5  0.631859E-03
+     6  0.631897E-03
+     7  0.552208E-04
+     8  0.552208E-04
+     9  0.552208E-04
+    10  0.552208E-04
+    11  0.552208E-04
     12  0.233892E-01
 
  Range of element maximum matrix coefficients in global coordinates
- Maximum = 8016809.96 at element 11105.                                  
- Minimum = 791738.494 at element 19704.                                  
+ Maximum = 7779811.66 at element 10137.                                  
+ Minimum = 746315.95 at element 16430.                                   
 
    *** ELEMENT MATRIX FORMULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1       269  SHELL181      0.031   0.000116
-        2      4250  SOLID185      0.234   0.000055
-        3       271  SHELL181      0.016   0.000058
-        4       271  SHELL181      0.031   0.000115
-        5       271  SHELL181      0.016   0.000058
-        6       276  SHELL181      0.016   0.000057
-        7        47  SHELL181      0.000   0.000000
+        1       278  SHELL181      0.047   0.000169
+        2      3828  SOLID185      0.172   0.000045
+        3       282  SHELL181      0.016   0.000055
+        4       278  SHELL181      0.016   0.000056
+        5       277  SHELL181      0.016   0.000056
+        6       270  SHELL181      0.016   0.000058
+        7        43  SHELL181      0.000   0.000000
         8        39  SHELL181      0.016   0.000401
-        9        39  SHELL181      0.000   0.000000
-       10        39  SHELL181      0.000   0.000000
-       11        39  SHELL181      0.016   0.000401
-       12     18656  SHELL181      1.312   0.000070
+        9        37  SHELL181      0.000   0.000000
+       10        41  SHELL181      0.000   0.000000
+       11        38  SHELL181      0.000   0.000000
+       12     18656  SHELL181      1.234   0.000066
        13        59  CONTA174      0.000   0.000000
        14        59  TARGE170      0.000   0.000000
-       15      1858  CONTA174      0.062   0.000034
-       16      1858  TARGE170      0.016   0.000008
-       17     18656  SURF154       0.391   0.000021
- Time at end of element matrix formulation CP = 3.40625.                 
+       15     18656  SURF154       0.578   0.000031
+ Time at end of element matrix formulation CP = 3.015625.                
 
  DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
-  Number of equations =      140292,    Maximum wavefront =    120
+  Number of equations =      138756,    Maximum wavefront =    126
 
-  Process memory allocated for solver              =   277.577 MB
-  Process memory required for in-core solution     =   266.170 MB
-  Process memory required for out-of-core solution =   105.785 MB
+  Process memory allocated for solver              =   258.900 MB
+  Process memory required for in-core solution     =   248.284 MB
+  Process memory required for out-of-core solution =   102.019 MB
 
-  Total memory allocated for solver                =   523.141 MB
-  Total memory required for in-core solution       =   501.666 MB
-  Total memory required for out-of-core solution   =   202.661 MB
+  Total memory allocated for solver                =   507.821 MB
+  Total memory required for in-core solution       =   487.032 MB
+  Total memory required for out-of-core solution   =   200.233 MB
 
- *** NOTE ***                            CP =       3.672   TIME= 14:37:11
+ *** NOTE ***                            CP =       3.266   TIME= 11:46:51
  The Distributed Sparse Matrix Solver is currently running in the        
  in-core memory mode.  This memory mode uses the most amount of memory   
  in order to avoid using the hard drive as much as possible, which most  
  often results in the fastest solution time.  This mode is recommended   
  if enough physical memory is present to accommodate all of the solver   
  data.                                                                   
- curEqn=  17823  totEqn=  70944 Job CP sec=      4.031
-      Factor Done=  54% Factor Wall sec=      0.238 rate=      29.7 GFlops
- curEqn=  70944  totEqn=  70944 Job CP sec=      4.250
-      Factor Done= 100% Factor Wall sec=      0.450 rate=      29.2 GFlops
- Distributed sparse solver maximum pivot= 22930298 at node 26607 ROTY.   
- Distributed sparse solver minimum pivot= 2.50297681 at node 9699 UY.    
- Distributed sparse solver minimum pivot in absolute value= 2.50297681   
- at node 9699 UY.                                                        
+ curEqn=  57229  totEqn=  69852 Job CP sec=      3.625
+      Factor Done=  51% Factor Wall sec=      0.232 rate=      24.7 GFlops
+ curEqn=  69852  totEqn=  69852 Job CP sec=      3.812
+      Factor Done= 100% Factor Wall sec=      0.421 rate=      26.4 GFlops
+ Distributed sparse solver maximum pivot= 27360719.8 at node 26165 ROTX. 
+ Distributed sparse solver minimum pivot= 3.27099612 at node 13616 UY.   
+ Distributed sparse solver minimum pivot in absolute value= 3.27099612   
+ at node 13616 UY.                                                       
 
    *** ELEMENT RESULT CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1       269  SHELL181      0.016   0.000058
-        2      4250  SOLID185      0.359   0.000085
-        3       271  SHELL181      0.031   0.000115
-        4       271  SHELL181      0.031   0.000115
-        5       271  SHELL181      0.031   0.000115
-        6       276  SHELL181      0.031   0.000113
-        7        47  SHELL181      0.016   0.000332
+        1       278  SHELL181      0.016   0.000056
+        2      3828  SOLID185      0.266   0.000069
+        3       282  SHELL181      0.031   0.000111
+        4       278  SHELL181      0.031   0.000112
+        5       277  SHELL181      0.031   0.000113
+        6       270  SHELL181      0.031   0.000116
+        7        43  SHELL181      0.016   0.000363
         8        39  SHELL181      0.000   0.000000
-        9        39  SHELL181      0.000   0.000000
-       10        39  SHELL181      0.000   0.000000
-       11        39  SHELL181      0.000   0.000000
-       12     18656  SHELL181      1.984   0.000106
+        9        37  SHELL181      0.000   0.000000
+       10        41  SHELL181      0.000   0.000000
+       11        38  SHELL181      0.000   0.000000
+       12     18656  SHELL181      2.062   0.000111
        13        59  CONTA174      0.000   0.000000
-       15      1858  CONTA174      0.062   0.000034
-       17     18656  SURF154       0.438   0.000023
+       15     18656  SURF154       0.328   0.000018
 
    *** NODAL LOAD CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1       269  SHELL181      0.000   0.000000
-        2      4250  SOLID185      0.031   0.000007
-        3       271  SHELL181      0.000   0.000000
-        4       271  SHELL181      0.000   0.000000
-        5       271  SHELL181      0.000   0.000000
-        6       276  SHELL181      0.000   0.000000
-        7        47  SHELL181      0.000   0.000000
+        1       278  SHELL181      0.000   0.000000
+        2      3828  SOLID185      0.031   0.000008
+        3       282  SHELL181      0.000   0.000000
+        4       278  SHELL181      0.000   0.000000
+        5       277  SHELL181      0.000   0.000000
+        6       270  SHELL181      0.000   0.000000
+        7        43  SHELL181      0.000   0.000000
         8        39  SHELL181      0.000   0.000000
-        9        39  SHELL181      0.000   0.000000
-       10        39  SHELL181      0.000   0.000000
-       11        39  SHELL181      0.000   0.000000
-       12     18656  SHELL181      0.062   0.000003
+        9        37  SHELL181      0.000   0.000000
+       10        41  SHELL181      0.000   0.000000
+       11        38  SHELL181      0.000   0.000000
+       12     18656  SHELL181      0.141   0.000008
        13        59  CONTA174      0.000   0.000000
-       15      1858  CONTA174      0.000   0.000000
-       17     18656  SURF154       0.047   0.000003
+       15     18656  SURF154       0.047   0.000003
  *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
  *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
 
 
  *** ANSYS BINARY FILE STATISTICS
   BUFFER SIZE USED= 16384
-       14.250 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
-       27.000 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
-       15.688 MB WRITTEN ON RESULTS FILE: file0.rst
+       11.438 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+       24.938 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+       13.938 MB WRITTEN ON RESULTS FILE: file0.rst
  *************** Write FE CONNECTORS *********
 
  WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
  ****************************************************
  *************** FINISHED SOLVE FOR LS 1 *************
 
- *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.6205556    
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.7813889    
 
  PRINTOUT RESUMED BY /GOP
 
  FINISH SOLUTION PROCESSING
 
 
- ***** ROUTINE COMPLETED *****  CP =         6.297
+ ***** ROUTINE COMPLETED *****  CP =         5.875
 
 
 
  *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2022 R1          22.1     ***
  DISTRIBUTED Ansys Mechanical Enterprise Academic Research     
 
- 00000000  VERSION=WINDOWS x64   14:37:14  OCT 09, 2023 CP=      6.312
+ 00000000  VERSION=WINDOWS x64   11:46:53  OCT 10, 2023 CP=      5.875
 
- Structural2--Static Structural (A5)                                           
+ Structural3--Static Structural (A5)                                           
 
 
 
           ***** ANSYS RESULTS INTERPRETATION (POST1) *****
 
- *** NOTE ***                            CP =       6.312   TIME= 14:37:14
+ *** NOTE ***                            CP =       5.891   TIME= 11:46:53
  Reading results into the database (SET command) will update the current 
  displacement and force boundary conditions in the database with the     
  values from the results file for that load set.  Note that any          
@@ -883,29 +737,29 @@
  EXIT THE ANSYS POST1 DATABASE PROCESSOR
 
 
- ***** ROUTINE COMPLETED *****  CP =         6.312
+ ***** ROUTINE COMPLETED *****  CP =         5.891
 
 
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.6205556    
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.7813889    
 
- PARAMETER _PREPTIME =     0.000000000    
+ PARAMETER _PREPTIME =     1.000000000    
 
- PARAMETER _SOLVTIME =     5.000000000    
+ PARAMETER _SOLVTIME =     4.000000000    
 
  PARAMETER _POSTTIME =     0.000000000    
 
  PARAMETER _TOTALTIM =     5.000000000    
 
- *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.05186823    
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.06918151    
 
- *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.904270000E-01
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.751959000E-01
 
  *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
 
- *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  140292.000    
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  138756.000    
 
  *GET  _SOL_END_TIME  FROM  ACTI  ITEM=SET  TIME  VALUE=  1.00000000    
 
@@ -915,12 +769,12 @@
  /FCLEAN COMMAND REMOVING ALL LOCAL FILES
 
  *ENDIF
- --- Total number of nodes = 26722
- --- Total number of elements = 46957
- --- Element load balance ratio = 1.05186823
- --- Time to combine distributed files = 9.0427E-02
+ --- Total number of nodes = 26204
+ --- Total number of elements = 42841
+ --- Element load balance ratio = 1.06918151
+ --- Time to combine distributed files = 7.51959E-02
  --- Sparse memory mode = 2
- --- Number of DOF = 140292
+ --- Number of DOF = 138756
 
  EXIT ANSYS WITHOUT SAVING DATABASE
 
@@ -931,7 +785,7 @@
 +--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
 
 Release: 2022 R1            Build: 22.1       Update: UP20211129   Platform: WINDOWS x64 
-Date Run: 10/09/2023   Time: 14:37     Process ID: 22452
+Date Run: 10/10/2023   Time: 11:46     Process ID: 12824
 Operating System: Windows 10  (Build: 19045)
 
 Processor Model: Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz
@@ -958,33 +812,33 @@ Input File: dummy.dat
 
   Core                Machine Name   Working Directory
  -----------------------------------------------------
-     0                    EN424268   C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\_ProjectScratch\ScrA250
-     1                    EN424268   C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\_ProjectScratch\ScrA250
+     0                    EN424268   C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\_ProjectScratch\Scr57E5
+     1                    EN424268   C:\Users\dcla189\OneDrive - The University of Auckland\2023 Sem2\344 Project\Plane_wing\344Lab2_dc_mt\Structural\BackUp\_ProjectScratch\Scr57E5
  
-Latency time from master to core     1 =    2.149 microseconds
+Latency time from master to core     1 =    1.598 microseconds
  
-Communication speed from master to core     1 =  8929.67 MB/sec
+Communication speed from master to core     1 =  8418.93 MB/sec
 
-Total CPU time for main thread                    :        5.4 seconds
-Total CPU time summed for all threads             :        6.6 seconds
+Total CPU time for main thread                    :        5.0 seconds
+Total CPU time summed for all threads             :        6.2 seconds
 
-Elapsed time spent obtaining a license            :        0.3 seconds
+Elapsed time spent obtaining a license            :        0.4 seconds
 Elapsed time spent pre-processing model (/PREP7)  :        0.2 seconds
-Elapsed time spent solution - preprocessing       :        0.6 seconds
-Elapsed time spent computing solution             :        4.0 seconds
+Elapsed time spent solution - preprocessing       :        0.5 seconds
+Elapsed time spent computing solution             :        3.9 seconds
 Elapsed time spent solution - postprocessing      :        0.1 seconds
 Elapsed time spent post-processing model (/POST1) :        0.0 seconds
  
 Equation solver used                              :            Sparse (symmetric)
-Equation solver computational rate                :       50.0 Gflops
-Equation solver effective I/O rate                :       20.0 GB/sec
+Equation solver computational rate                :       48.9 Gflops
+Equation solver effective I/O rate                :       17.3 GB/sec
 
-Sum of memory used on all processes               :     1023.0 MB
+Sum of memory used on all processes               :     1012.0 MB
 Sum of memory allocated on all processes          :     3136.0 MB
 Physical memory available                         :         32 GB
 
 Total amount of I/O written to disk               :        0.1 GB
-Total amount of I/O read from disk                :        0.1 GB
+Total amount of I/O read from disk                :        0.0 GB
 
 +------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
 
@@ -1000,11 +854,11 @@ Total amount of I/O read from disk                :        0.1 GB
  |---------------------------------------------------------------------------|
  |                                                                           |
  | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
- | Maximum Database Used      46 MB    Maximum Scratch Memory Used    664 MB |
+ | Maximum Database Used      41 MB    Maximum Scratch Memory Used    660 MB |
  |                                                                           |
  |---------------------------------------------------------------------------|
  |                                                                           |
- |        CP Time      (sec) =          6.625       Time  =  14:37:14        |
- |        Elapsed Time (sec) =          7.000       Date  =  10/09/2023      |
+ |        CP Time      (sec) =          6.172       Time  =  11:46:54        |
+ |        Elapsed Time (sec) =          7.000       Date  =  10/10/2023      |
  |                                                                           |
  *---------------------------------------------------------------------------*
